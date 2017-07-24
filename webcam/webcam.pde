@@ -102,12 +102,13 @@ void draw()
         }
   
         
-        if (frameCount < 60) {
-          stroke(255);
-        } else {
-          noStroke();
-        }
+        //if (frameCount < 60) {
+        //  stroke(255);
+        //} else {
+        //  noStroke();
+        //}
         
+        noStroke();
         fill(getPaletteColor(pixelColor));
         triangle(
           x + random(-maxSize, maxSize), 
